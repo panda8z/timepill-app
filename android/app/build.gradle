@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.padna8z.timepill_panda_rn"
+        applicationId "com.padna8z.tpp_rn"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
