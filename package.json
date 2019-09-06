@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "android": "react-native run-android",
+    "release": "npx jetifier && cd android && ./gradlew assembleRelease --stacktrace && cd ..", 
+    "debug": "npx jetifier && cd android && ./gradlew assembleDebug --stacktrace && cd .." 
   },
   "dependencies": {
     "react": "16.8.6",
@@ -20,6 +23,7 @@
     "@react-native-community/eslint-config": "^0.0.3",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
+    "jetifier": "^1.6.4",
     "metro-react-native-babel-preset": "0.54.1",
     "react-test-renderer": "16.8.6"
   },
