@@ -16,6 +16,7 @@
 default_platform(:android)
 
 platform :android do
+
   desc "Runs all the tests"
   lane :test do
     gradle(task: "test")
@@ -34,5 +35,14 @@ platform :android do
   lane :deploy do
     gradle(task: "clean assembleRelease")
     upload_to_play_store
+  end
+
+  lane :buildAssemble do
+    gradle(task: "clean assembleRelease")
+  end
+
+  lane :toPgyer do
+    buildAssemble
+    pgyer(api_key: "7f15xxxxxxxxxxxxxxxxxx141", user_key: "4a5bcxxxxxxxxxxxxxxx3a9e")
   end
 end
