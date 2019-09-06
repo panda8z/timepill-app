@@ -1,6 +1,6 @@
 import Ionicons from "react-native-vector-icons/Ionicons";
 import {Platform} from "react-native";
-import Color from '../style/color';
+import Color from './color';
 
 
 let Icon = {
