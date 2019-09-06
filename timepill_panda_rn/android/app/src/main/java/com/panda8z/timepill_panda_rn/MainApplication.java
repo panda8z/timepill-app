@@ -1,4 +1,4 @@
-package com.timepill_panda_rn;
+package com.padna8z.timepill_panda_rn;
 
 import android.app.Application;
 import android.util.Log;

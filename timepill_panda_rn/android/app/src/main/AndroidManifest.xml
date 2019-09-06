@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.timepill_panda_rn">
+  package="com.padna8z.timepill_panda_rn">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
