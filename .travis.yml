@@ -1,11 +1,14 @@
-os: osx
-osx_image: xcode11
-language: android
-before_install:
-  - brew update
-  - brew install node
-  - node --version
-  - npm install -g yarn react-native-cli
+# os: osx
+# osx_image: xcode11
+# language: android
+# before_install:
+#   - brew update
+#   - node --version
+#   - npm install -g nvm
+#   - nvm -v
+#   - nvm install 11.14.0
+#   - npm install -g yarn react-native-cli
+#   - 
 # before_deploy:
 #   # Set up git user name and tag this commit
 #   - git config --local user.name "YOUR GIT USER NAME"
