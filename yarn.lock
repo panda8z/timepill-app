@@ -837,13 +837,6 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@react-native-community/blur@^3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@react-native-community/blur/-/blur-3.3.1.tgz#bc9ecd6d85d89739d8180138716535ac7cfa4680"
-  integrity sha512-UfH2ut/l4GpZHeq/TGx3BrmyXSCSBBwBCVx1DhPodP3k959zJ2ajgXa3PiU/qjutftTUw6KH9Frsh2U0ax9dMQ==
-  dependencies:
-    prop-types "^15.5.10"
-
 "@react-native-community/cli-platform-android@^2.6.0", "@react-native-community/cli-platform-android@^2.9.0":
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-android/-/cli-platform-android-2.9.0.tgz#28831e61ce565a2c7d1905852fce1eecfd33cb5e"
@@ -929,11 +922,6 @@
     eslint-plugin-react-hooks "^1.5.1"
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
-
-"@react-native-community/status-bar@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@react-native-community/status-bar/-/status-bar-1.0.3.tgz#e90ba515adb97dcffd956f90e965d5e7e2de95b8"
-  integrity sha512-5gwhG1gBTXqgSi/e9DbraBQBCtUtTCSrI9kuwEpwLOCa/pKLIyxQG/HM96ZjvytbZOTZXeaTiKtqLFvYNYSx3A==
 
 "@react-navigation/core@^3.5.0":
   version "3.5.0"
@@ -4858,7 +4846,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -4951,11 +4939,6 @@ react-native-gesture-handler@^1.4.1:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.4"
     prop-types "^15.7.2"
-
-react-native-image-crop-picker@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.npm.taobao.org/react-native-image-crop-picker/download/react-native-image-crop-picker-0.25.0.tgz#858fa6fdc857255fe5250252a38d58db347f9067"
-  integrity sha1-hY+m/chXJV/lJQJSo41Y2zR/kGc=
 
 react-native-reanimated@^1.2.0:
   version "1.2.0"
