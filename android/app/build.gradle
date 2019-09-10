@@ -26,7 +26,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.padna8z.tpp_rn"
+        applicationId "com.panda8z.tpp_rn"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

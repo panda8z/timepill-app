@@ -1,4 +1,4 @@
-package com.padna8z.tpp_rn;
+package com.panda8z.tpp_rn;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

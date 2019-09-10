@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.padna8z.tpp_rn">
+    package="com.panda8z.tpp_rn">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <!--  react-native-image-crop-picker start -->
