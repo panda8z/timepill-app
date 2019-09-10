@@ -104,8 +104,11 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"// From node_modules
+    // do not remove this swipe-refresh-layout library
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0-beta04'
     implementation 'androidx.recyclerview:recyclerview-selection:1.1.0-alpha06'
+    implementation "androidx.appcompat:appcompat:${rootProject.ext.androidxAppcompat}"
 
     if (enableHermes) {
       def hermesPath = "../../node_modules/hermesvm/android/"
