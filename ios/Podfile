@@ -33,6 +33,10 @@ target 'timepill_panda_rn' do
 
   pod 'RNScreens', :path => '../node_modules/react-native-screens'
 
+  pod 'react-native-statusbar', :path => '../node_modules/@react-native-community/status-bar'
+
+  pod 'react-native-blur', :path => '../node_modules/@react-native-community/blur'
+
   target 'timepill_panda_rnTests' do
     inherit! :search_paths
     # Pods for testing

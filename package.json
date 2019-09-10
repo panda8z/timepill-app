@@ -6,14 +6,17 @@
     "start": "react-native start",
     "test": "jest",
     "android": "react-native run-android",
-    "release": "npx jetifier && cd android && ./gradlew assembleRelease --stacktrace && cd ..", 
-    "debug": "npx jetifier && cd android && ./gradlew assembleDebug --stacktrace && cd .." ,
-    "push":"git pull && git push"
+    "release": "npx jetifier && cd android && ./gradlew assembleRelease --stacktrace && cd ..",
+    "debug": "npx jetifier && cd android && ./gradlew assembleDebug --stacktrace && cd ..",
+    "push": "git pull && git push"
   },
   "dependencies": {
+    "@react-native-community/blur": "^3.3.1",
+    "@react-native-community/status-bar": "^1.0.3",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-gesture-handler": "^1.4.1",
+    "react-native-image-crop-picker": "^0.25.0",
     "react-native-reanimated": "^1.2.0",
     "react-native-screens": "^2.0.0-alpha.1",
     "react-navigation": "^4.0.0"
